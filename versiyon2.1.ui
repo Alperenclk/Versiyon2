@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>854</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>450</width>
+        <height>300</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="documentMode">
+       <bool>false</bool>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="GIRISs">
+       <attribute name="title">
+        <string>GIRIS</string>
+       </attribute>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>230</y>
+          <width>351</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Gothic</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>110</y>
+          <width>311</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="font">
+            <font>
+             <family>MS Gothic</family>
+             <pointsize>11</pointsize>
+             <weight>75</weight>
+             <italic>false</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Sizi taniyalim</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QFormLayout" name="formLayout_2">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_6">
+             <property name="font">
+              <font>
+               <family>Malgun Gothic Semilight</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Adiniz ve Soyadiniz:</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lneKayitAdSoyad">
+             <property name="inputMask">
+              <string/>
+             </property>
+             <property name="maxLength">
+              <number>30</number>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_7">
+             <property name="font">
+              <font>
+               <family>Malgun Gothic Semilight</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Kullanici adiniz</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="lneKayitKullaniciAdi">
+             <property name="maxLength">
+              <number>20</number>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_8">
+             <property name="font">
+              <font>
+               <family>Malgun Gothic Semilight</family>
+               <pointsize>10</pointsize>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Sifreniz</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="lneKayitSifre">
+             <property name="maxLength">
+              <number>10</number>
+             </property>
+             <property name="echoMode">
+              <enum>QLineEdit::Password</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>290</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Gothic</family>
+          <pointsize>11</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Hemen baslayalim</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>110</y>
+          <width>311</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QWidget" name="formLayoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>50</y>
+           <width>271</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <layout class="QFormLayout" name="formLayout">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <family>Malgun Gothic Semilight</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Kullanici adiniz:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lneGirisKullaniciAdi">
+            <property name="maxLength">
+             <number>20</number>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <family>Malgun Gothic Semilight</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Sifreniz:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lneGirisSifre">
+            <property name="maxLength">
+             <number>10</number>
+            </property>
+            <property name="echoMode">
+             <enum>QLineEdit::Password</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="btnGirisYap">
+            <property name="text">
+             <string>GIRIS YAP</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>0</y>
+           <width>281</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Gothic</family>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>YOKSA BIR HESABA SAHIP MISINIZ?</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>161</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Mongolian Baiti</family>
+          <pointsize>14</pointsize>
+          <weight>50</weight>
+          <italic>true</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>HOSGELDINIZ</string>
+        </property>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>330</y>
+          <width>651</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="btnEkle">
+         <property name="geometry">
+          <rect>
+           <x>570</x>
+           <y>100</y>
+           <width>71</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>EKLE</string>
+         </property>
+        </widget>
+        <widget class="QWidget" name="formLayoutWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>15</x>
+           <y>10</y>
+           <width>541</width>
+           <height>121</height>
+          </rect>
+         </property>
+         <layout class="QFormLayout" name="formLayout_5">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_23">
+            <property name="font">
+             <font>
+              <family>Malgun Gothic Semilight</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Lutfen gunluk geliseceginiz bir konuyu girin</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lneKonu"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_25">
+            <property name="font">
+             <font>
+              <family>Malgun Gothic Semilight</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Bu HEDEF'e ulasmak icin kac gun gerekir?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QSpinBox" name="spnGunlukHedef">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_26">
+            <property name="font">
+             <font>
+              <family>Malgun Gothic Semilight</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Peki gunde kac Dakika calismaliyiz?</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QSpinBox" name="spnGunlukDK">
+            <property name="specialValueText">
+             <string/>
+            </property>
+            <property name="suffix">
+             <string> DK</string>
+            </property>
+            <property name="maximum">
+             <number>500</number>
+            </property>
+            <property name="singleStep">
+             <number>2</number>
+            </property>
+            <property name="value">
+             <number>30</number>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_27">
+            <property name="font">
+             <font>
+              <family>Malgun Gothic Semilight</family>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Bu hedefe 1-5 arasinda onem puani veriniz</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QSpinBox" name="spnOnemPuan">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>5</number>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="label_24">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>20</y>
+          <width>411</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Ink Free</family>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>     BASARACAGIM</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnKaydet">
+        <property name="geometry">
+         <rect>
+          <x>700</x>
+          <y>450</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>KAYDET</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="ekleme">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+       <attribute name="title">
+        <string>EKLE</string>
+       </attribute>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>271</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MingLiU-ExtB</family>
+          <pointsize>18</pointsize>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="text">
+         <string>Bugun ne yaptim?</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="cmbKonular">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>10</y>
+          <width>231</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="editable">
+         <bool>false</bool>
+        </property>
+        <property name="currentText">
+         <string/>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+        <property name="maxVisibleItems">
+         <number>20</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>ingilizce </string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QCheckBox" name="chkIlgilenmedim">
+        <property name="geometry">
+         <rect>
+          <x>580</x>
+          <y>20</y>
+          <width>211</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Candara Light</family>
+          <pointsize>9</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Bu Konuyla ilgilenemedim:((</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnKaydet_2">
+        <property name="geometry">
+         <rect>
+          <x>650</x>
+          <y>170</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>KAYDET</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="formLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>80</y>
+          <width>565</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_8">
+         <item row="1" column="0" colspan="2">
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_28">
+             <property name="font">
+              <font>
+               <family>Malgun Gothic Semilight</family>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Sence ne kadar verimli id i? [1-5]</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="spnGunlukDK_2">
+             <property name="specialValueText">
+              <string/>
+             </property>
+             <property name="suffix">
+              <string> DK</string>
+             </property>
+             <property name="maximum">
+              <number>500</number>
+             </property>
+             <property name="singleStep">
+              <number>2</number>
+             </property>
+             <property name="value">
+              <number>30</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0" colspan="2">
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_40">
+             <property name="font">
+              <font>
+               <family>Malgun Gothic Semilight</family>
+               <pointsize>10</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>Yarin ne kadar calisacagiz?</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QSpinBox" name="spnYarinHedef">
+             <property name="specialValueText">
+              <string/>
+             </property>
+             <property name="suffix">
+              <string> DK</string>
+             </property>
+             <property name="maximum">
+              <number>500</number>
+             </property>
+             <property name="singleStep">
+              <number>2</number>
+             </property>
+             <property name="value">
+              <number>30</number>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_42">
+           <property name="font">
+            <font>
+             <family>Malgun Gothic Semilight</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Bugun kac Dakika calistik?</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QSpinBox" name="spnGunlukDK_7">
+           <property name="specialValueText">
+            <string/>
+           </property>
+           <property name="suffix">
+            <string> DK</string>
+           </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
+           <property name="singleStep">
+            <number>2</number>
+           </property>
+           <property name="value">
+            <number>30</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="Line" name="line">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>230</y>
+          <width>811</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>240</y>
+          <width>201</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MingLiU-ExtB</family>
+          <pointsize>18</pointsize>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="text">
+         <string>Sonuclar :))</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnBitir">
+        <property name="geometry">
+         <rect>
+          <x>720</x>
+          <y>480</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>BITIR [X]</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnBilgiler">
+        <property name="geometry">
+         <rect>
+          <x>590</x>
+          <y>480</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>BILGILER</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbBaslikKonu">
+        <property name="geometry">
+         <rect>
+          <x>280</x>
+          <y>240</y>
+          <width>151</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MingLiU-ExtB</family>
+          <pointsize>15</pointsize>
+          <italic>true</italic>
+          <kerning>true</kerning>
+         </font>
+        </property>
+        <property name="text">
+         <string>konu</string>
+        </property>
+       </widget>
+       <widget class="QProgressBar" name="progKalan">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>440</y>
+          <width>291</width>
+          <height>71</height>
+         </rect>
+        </property>
+        <property name="value">
+         <number>0</number>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="lbGrafik">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>250</y>
+          <width>391</width>
+          <height>221</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>grafik or ozlusoz</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>290</y>
+          <width>356</width>
+          <height>141</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="lbToplamHedef">
+           <property name="font">
+            <font>
+             <family>MS Serif</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Toplam hedefimiz ... GUN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lbKalanGun">
+           <property name="font">
+            <font>
+             <family>MS Serif</family>
+             <pointsize>11</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Hedefe ulasmaya ... gun kaldi</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lbKalanDK">
+           <property name="font">
+            <font>
+             <family>MS Serif</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Hedefe ulasmak icin ... dakika daha calisacagiz</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="lbGununPuani">
+           <property name="font">
+            <font>
+             <family>8514oem</family>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>GUNUN PUANI:        </string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="BILGILER">
+       <attribute name="title">
+        <string>BILGILER</string>
+       </attribute>
+       <widget class="QWidget" name="formLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>361</width>
+          <height>143</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_12">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>ISIM VE SOYISIM:</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>KULLANICI ADI</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_14">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>SIFRE</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_15">
+           <property name="font">
+            <font>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>TOPLAM PUAN</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="lbBilgiIsim">
+           <property name="font">
+            <font>
+             <family>Georgia</family>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>alperen celik</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="lbBilgiKullanici">
+           <property name="font">
+            <font>
+             <family>Georgia</family>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>alperen celik</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="lbBilgiSifre">
+           <property name="font">
+            <font>
+             <family>Georgia</family>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>alperen celik</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="lbBilgiToplamPuan">
+           <property name="font">
+            <font>
+             <family>Georgia</family>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QTableWidget" name="tbwTamamlananlar">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>420</y>
+          <width>821</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>HEDEF</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>KAC GUN</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>TOPLAM DAKIKA</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>BITIRME TARIHI</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>ILK KAYIT</string>
+         </property>
+        </column>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>230</y>
+          <width>231</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft Sans Serif</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>HEDEFLER TABLOSU</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>380</y>
+          <width>311</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Microsoft Sans Serif</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>TAMAMLANANLAR TABLOSU</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnCikis">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>170</y>
+          <width>91</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CIKIS</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="formLayoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>50</y>
+          <width>441</width>
+          <height>168</height>
+         </rect>
+        </property>
+        <layout class="QFormLayout" name="formLayout_6">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_29">
+           <property name="font">
+            <font>
+             <family>Malgun Gothic Semilight</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Lutfen gunluk geliseceginiz bir konuyu girin</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lneBilgiKonu"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_30">
+           <property name="font">
+            <font>
+             <family>Malgun Gothic Semilight</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Bu HEDEF'e ulasmak icin kac gun gerekir?</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QSpinBox" name="spnBilgiGunlukHedef">
+           <property name="minimum">
+            <number>1</number>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_31">
+           <property name="font">
+            <font>
+             <family>Malgun Gothic Semilight</family>
+             <pointsize>10</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Peki gunde kac Dakika calismaliyiz?</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QSpinBox" name="spnBilgiGunlukDK">
+           <property name="specialValueText">
+            <string/>
+           </property>
+           <property name="suffix">
+            <string> DK</string>
+           </property>
+           <property name="maximum">
+            <number>500</number>
+           </property>
+           <property name="singleStep">
+            <number>2</number>
+           </property>
+           <property name="value">
+            <number>30</number>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_32">
+           <property name="font">
+            <font>
+             <family>Malgun Gothic Semilight</family>
+             <pointsize>9</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Bu hedefe 1-5 arasinda onem puani veriniz</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QSpinBox" name="spnBilgiOnemPuan">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="minimum">
+            <number>1</number>
+           </property>
+           <property name="maximum">
+            <number>5</number>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QPushButton" name="btnBilgiEkle">
+           <property name="text">
+            <string>EKLE</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>380</x>
+          <y>0</y>
+          <width>231</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Modern</family>
+          <pointsize>14</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Yeni Hedef ekle</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>260</y>
+          <width>821</width>
+          <height>131</height>
+         </rect>
+        </property>
+        <property name="rowCount">
+         <number>4</number>
+        </property>
+        <property name="columnCount">
+         <number>10</number>
+        </property>
+        <row/>
+        <row/>
+        <row/>
+        <row/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+        <column/>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
